@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 4, 2019 6:54:16 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Hibernatejsp.UserRegister" table="USERREGISTER">
+        <id name="user_ID" type="int">
+            <column name="USER_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="f_name" type="java.lang.String">
+            <column name="F_NAME" />
+        </property>
+        <property name="m_name" type="java.lang.String">
+            <column name="M_NAME" />
+        </property>
+        <property name="l_name" type="java.lang.String">
+            <column name="L_NAME" />
+        </property>
+        <property name="gender" type="java.lang.String">
+            <column name="GENDER" />
+        </property>
+        <property name="age" type="java.lang.String">
+            <column name="AGE" />
+        </property>
+        <property name="p_address" type="java.lang.String">
+            <column name="P_ADDRESS" />
+        </property>
+        <property name="t_address" type="java.lang.String">
+            <column name="T_ADDRESS" />
+        </property>
+        <property name="contact" type="java.lang.String">
+            <column name="CONTACT" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+    </class>
+</hibernate-mapping>

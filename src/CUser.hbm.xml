@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 3, 2019 9:02:13 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Hibernatejsp.CUser" table="CUSER">
+        <id name="User_ID" type="int">
+            <column name="USER_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="F_Name" type="java.lang.String">
+            <column name="F_NAME" />
+        </property>
+        <property name="L_Name" type="java.lang.String">
+            <column name="L_NAME" />
+        </property>
+        <property name="Address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="Email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="Password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+    </class>
+</hibernate-mapping>
